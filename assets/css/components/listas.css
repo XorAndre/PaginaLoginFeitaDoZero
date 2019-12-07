@@ -3,14 +3,14 @@
     width: 50%;
 }
 .links_social a{
-    margin: .23rem .85rem;
+    margin: .23rem .10rem;
 }
 .links_social a img{
     height: 10vh;
     width: 10vw;
 }
 @media(min-width: 48rem){
-    .links_social{width: 45%;}
+    .links_social{width: 34%;}
     .links_social a img{
         height: 4vh;
         width: 4vw;

@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url(components/reset.css);
+@import url(components/vars_colors.css);
+@import url(components/regras_globais.css);
+@import url(components/buttons.css);
+@import url(components/form.css);
+@import url(components/listas.css);
+@import url(components/sections.css);

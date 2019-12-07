@@ -1,0 +1,40 @@
+
+/*Regras Locais*/
+.main{
+    background-color: var(--cor_main);
+    min-height: 100vh;
+}
+.form_section{
+    background-color: #fff;
+    box-shadow: 1px 3px 6px 0 #33333375;
+    min-height: 40vh;
+    position: relative;
+    width: 99%;
+}
+.left{
+    background-image: url(../../imgs/fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+}
+.right{
+    background-color: #fff;
+}
+@media(max-width: 38rem){
+    .right{
+        box-shadow: 1px 3px 6px 0 #33333375;
+        position: absolute;
+        left: 5%;
+        top: 5rem;
+        width: 90%;
+    }
+}
+@media(min-width: 48rem){
+    .left, .right{width: 50%;}
+    .form_section{
+        flex-direction: row;
+        margin: 5rem auto;
+        width: 80%;
+    }
+}

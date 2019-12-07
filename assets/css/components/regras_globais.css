@@ -1,0 +1,35 @@
+/*Regras Globais*/
+.container_icon, 
+.login,
+.rodape,
+.main, 
+.form_section{
+    display: flex;
+    flex-direction: column;
+}
+.container_icon,
+.rodape,
+.main{
+     align-items: center;
+}
+/*cores globais*/
+.container_icon h2,
+.login input[type="text"]::placeholder,
+.login input[type="password"]::placeholder{
+    color: var(--cor_main);
+}
+/*Textos*/
+.bt,
+.login input[type="text"],
+.login input[type="password"],
+.rodape .small{
+    text-transform: uppercase;
+}
+audio,
+img,
+iframe,
+video,
+.bt,
+.links_social{
+    display: inline-block;
+}

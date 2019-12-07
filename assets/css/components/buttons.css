@@ -1,0 +1,23 @@
+.bt{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 1px 3px 6px 0 rgba(0. 0. 0. 0.12);
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 0.89rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    padding: 0.76rem 1rem;
+    transition: 1s linear background;
+}
+.bt-roxo{
+    background-color: var(--cor_main);
+}
+.bt-verde{
+    background-color: var(--verde);
+}
+.bt-verde:hover{
+    background: var(--verde_escuro);
+    cursor: pointer;
+}

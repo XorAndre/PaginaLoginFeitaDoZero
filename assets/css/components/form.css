@@ -1,0 +1,30 @@
+
+/*Regtras Locais*/
+.login input[type="text"],
+.login input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #333;
+    font-family: sans-serif;
+    font-size: .89rem;
+    margin: .67rem 0;
+    padding: 15px 10px;
+}
+.container_icon h2,
+.container_icon p,
+.rodape p{
+    font-family: 'Montserrat', sans-serif;
+}
+.login{
+    margin: 1.8rem auto;
+    width: 90%;
+}
+.container_icon h2{font-size: 2rem;}
+.login_icon{
+    height: 10vh;
+    width: 10vh;
+}
+.rodape{text-align: center;}
+.rodape .small{
+    font-size: 0.65rem;
+    margin-top: 1rem;
+}
